@@ -57,7 +57,7 @@ body {
 }
 .circle img {
 	border-radius: 50%;
-	border: 2px solid $pumpkin;
+	border: 5px solid $primary-color;
 }
 
 /***************************************
@@ -66,12 +66,12 @@ body {
 header {
 	#top-bar {
 		display: block;
-		background-color: $midnight;
+		background-color: $alert-color;
 		#logo {
 			font-size: 2.5rem;
 			text-transform: uppercase;
 			a {
-				color: $pumpkin;
+				color: $primary-color;
 			}
 		}
 		#menu {
@@ -98,7 +98,7 @@ header {
 #content {
 	float: left;
 	width: 70%;
-	min-height: 1000px;
+	min-height: 100%;
 	h2 {
 		text-align: center;
 	}
@@ -108,6 +108,15 @@ header {
 	height: 100%;
 	width: 90%;
 	margin: 2em auto;
+	h3 {
+		text-transform: uppercase;
+		font-size: 2.5rem;
+	}
+	#meta p {
+		display: inline-block;
+		margin-right: 0.5em;
+		font-size: 0.8rem;
+	}
 }
 /***************************************
 			SIDEBAR STYLNG
@@ -115,10 +124,27 @@ header {
 #sidebar {
 	float: left;
 	width: 30%;
-	background-color: $pumpkin;
-	min-height: 1000px;
-	h3 {
+	background-color: $primary-color;
+	color: $secondary-color;
+	h3, h4, h5 {
 		text-align: center;
+	}
+	section {
+		margin-top: 3em;
+		&:first-of-type {
+			margin-top: 0;
+		}
+	}
+}
+/***************************************
+			SINGLE.PHP STYLING
+***************************************/
+.single {
+	#meta {
+		p {
+			display: inline-block;
+			margin-right: 0.5em;
+		}
 	}
 }
 

@@ -6,9 +6,10 @@
 
 $midnight: #2c3e50;
 $clouds: #ecf0f1;
-$pumpkin: #c0392d;
-$primary-color: $pumpkin;
-// $secondary-color: $asbestos;
+$blood: #c0392d;
+$primary-color: $blood;
+$secondary-color: $clouds;
+$alert-color: $midnight;
 // $succes-color: $grass;
 // $alert-color: $blood;
 
@@ -20,6 +21,7 @@ $total-columns: 8;
 $anchor-font-color: $clouds;
 
 $header-font-family: $sintony;
+$header-font-color: #242424;
 $header-font-weight: 700;
 
 $body-font-family: $lato;
